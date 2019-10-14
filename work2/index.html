@@ -1,0 +1,20 @@
+<html>
+    <head>
+  <meta charset="UTF-8">
+<title>张展华的简单网页应用</title>
+<script>
+    var password = prompt('输入密码')
+    if (password == '7768577') {alert('密码输入正确')}
+    else{alert('密码输入错误!')}
+    function color(str)
+    {document.body.style.backgroundColor = str;}
+
+</script>
+    </head>
+    <body>
+<input type="button" value="设为红色" onclick="color('red')">
+<input type="button" value="设为黄色" onclick="color('yellow')">
+<input type="button" value="设为蓝色" onclick="color('blue')">
+<input type="button" value="你帽子的颜色" onclick="color('#22ee00')">
+    </body>
+</html>
