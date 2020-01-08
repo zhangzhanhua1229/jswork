@@ -1,6 +1,6 @@
 body {
     background: #eee;
-    margin: 0
+    margin: 0;
 }
 
 .box {
@@ -18,7 +18,7 @@ body {
     color: #666;
     font-size: 24px;
     text-align: center;
-    margin: 10px 0 
+    margin: 10px 0;
 }
 
 .comment ul {
@@ -29,32 +29,34 @@ body {
 }
 
 .comment li {
-    line-height: 32px
+    line-height: 32px;
 }
 
 .pagelist {
     margin-top: 20px;
     text-align: center;
 }
+
 .pagelist span {
-    margin: 0 2px
- }
+    margin: 0 2px;    
+}
 
 .pagelist button {
     padding: 6px 10px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .pagelist button:disabled {
-    cursor: default
+    cursor: default;
 }
 
-.progrees div {
+.pagelist div {
     width: 0%;
     height: 1px;
     position: fixed;
     top: 0;
     background-color: #38f;
     box-shadow: 1px 1px 1px #6bf;
-    transition: all 0.8s
+    transition: all 0.8s;
 }
+
